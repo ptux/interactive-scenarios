@@ -2,9 +2,9 @@
 
 ## argocd
 
-`kubectl create namespace argocd`{{execute}}
+`kubectl create namespace argocd
 
-`kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml`{{execute}}
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml`{{execute}}
 
 ## kustomize
 
@@ -13,6 +13,7 @@
 - Client side
 
 `wget https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.9.2/kubeseal-linux-amd64 -O kubeseal
+
 sudo install -m 755 kubeseal /usr/local/bin/kubeseal`{{execute}}
 
 - Cluster side
@@ -21,8 +22,10 @@ sudo install -m 755 kubeseal /usr/local/bin/kubeseal`{{execute}}
 
 ## hub
 
-`wget https://github.com/github/hub/releases/download/v2.12.8/hub-linux-amd64-2.12.8.tgz`
-`tar zvxvf hub-linux-amd64-2.12.8.tgz`
-`sudo ./hub-linux-amd64-2.12.8/install`{{execute}}
+`wget https://github.com/github/hub/releases/download/v2.12.8/hub-linux-amd64-2.12.8.tgz
+
+tar zvxvf hub-linux-amd64-2.12.8.tgz
+
+sudo ./hub-linux-amd64-2.12.8/install`{{execute}}
 
 `hub version`{{execute}}
