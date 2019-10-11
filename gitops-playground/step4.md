@@ -4,7 +4,7 @@ git checkout -b feature1
 ## commit
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
-git commit . -m "test"
+git commit . -m "hello gitops"
 
 ## push
 

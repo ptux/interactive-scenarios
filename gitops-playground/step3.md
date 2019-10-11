@@ -1,11 +1,11 @@
 
 ## clone
 
-`hub clone https://github.com/ptux/gke-gitops-tutorial-cloudbuild.git`{{execute}}
-`cd gke-gitops-tutorial-cloudbuild`
+`hub clone https://github.com/ptux/hello-gitops-app.git`{{execute}}
+`cd hello-gitops-app`
 
 ## fork
 
 `hub fork`
-`git remote set-url ooocamel https://github.com/ooocamel/gke-gitops-tutorial-cloudbuild.git`
+`git remote set-url ooocamel https://github.com/ooocamel/hello-gitops-app.git`
 
