@@ -6,18 +6,30 @@
   "details": {
     "steps": [
       {
-        "title": "install kube tools",
+        "title": "launch kube",
         "code": "foreground.sh",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "install gitpos tools",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "fetch repo",
         "text": "step3.md"
-      }
+      },
+      {
+        "title": "make changes",
+        "text": "step4.md"
+      },
+      {
+        "title": "ci",
+        "text": "step5.md"
+      },
+      {
+        "title": "merge PR",
+        "text": "step6.md"
+      },
     ],
     "intro": {
       "text": "intro.md"

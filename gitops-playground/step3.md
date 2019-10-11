@@ -1,7 +1,7 @@
-# coding
-
 ## fork
+
+`hub fork`
 
 ## clone
 
-`git clone https://github.com/ptux/gke-gitops-tutorial-cloudbuild.git`{{execute}}
+`hub clone`
