@@ -1,7 +1,7 @@
 
 ## clone and fork app repo
 
-`hub clone https://github.com/ptux/hello-gitops-app.git ~`{{execute}}
+`hub clone https://github.com/ptux/hello-gitops-app.git ~/hello-gitops-app`{{execute}}
 
 `cd ~/hello-gitops-app
 hub fork`{{execute}}
@@ -24,7 +24,7 @@ replace fingerprints in `config.yml`
 
 ## clone and fork env repo
 
-`hub clone https://github.com/ptux/hello-gitops-env.git ~`{{execute}}
+`hub clone https://github.com/ptux/hello-gitops-env.git ~/hello-gitops-env`{{execute}}
 
 `cd ~/hello-gitops-env
 hub fork`{{execute}}
