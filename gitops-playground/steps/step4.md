@@ -1,24 +1,11 @@
-## create ssh key pair
+## Circle CI Settings
 
-`cd && ssh-keygen -t rsa -m pem -f hello-gitops -N ""`{{execute}}
+https://circleci.com
 
-## add deploy key(private) on Circle CI
+BUILD SETTINGS -> Environment Variables -> Add Variable
 
-`cat ~/hello-gitops`{{execute}}
+- DOCKER_LOGIN
+- DOCKER_PASSWORD
+- GITHUB_USERNAME
 
-PERMISSIONS -> SSH Permissions -> Add SSH Key
-
-## add deploy key(public) on Github
-`hub clone https://github.com/ptux/hello-gitops-env.git ~/hello-gitops-env`{{execute}}
-
-`cd ~/hello-gitops-env && hub fork`{{execute}}
-
-`cat ~/hello-gitops.pub`{{execute}}
-
-hello-gitops-env -> settings -> keys
-
-## .circleci/config.yml
-
-`FP=(ssh-keygen -E md5 -l -f hello-gitops.pub | cut -d" " -f2 | cut -d":" -f2-)`{{execute}}
-
-`cd ~/hello-gitops-app && sed -i -e 's/$FP/_FINGERPRINTS_/g' .circleci/config.yml`
+BUILD SETTINGS -> Advanced Settings -> Only build pull requests[on]
