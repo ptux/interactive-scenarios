@@ -7,6 +7,4 @@
 `GITHUB_USERNAME=ooocamel`{{execute}}
 `cd ~/hello-gitops-app && git remote set-url ooocamel https://github.com/$GITHUB_USERNAME/hello-gitops-app.git`{{execute}}
 
-## Enable Circle CI building
 
-https://circleci.com -> Login with github

@@ -6,29 +6,29 @@
   "details": {
     "steps": [
       {
-        "title": "Operators launch k8s",
+        "title": "launch k8s",
         "code": "foreground.sh",
-        "text": "steps/ops/launch-k8s.md"
+        "text": "steps/step1.md"
       },
       {
-        "title": "Operators install tools",
-        "text": "steps/ops/install-tools.md"
+        "title": "install tools",
+        "text": "steps/step2.md"
       },
       {
-        "title": "Developers enable CI",
-        "text": "steps/dev/setup-CI-1.md"
+        "title": "setup CI",
+        "text": "steps/step3.md"
       },
       {
-        "title": "Operators add key",
-        "text": "steps/ops/setup-CI-2.md"
+        "title": "setup CI",
+        "text": "steps/step4.md"
       },
       {
-        "title": "Developers config CI",
-        "text": "steps/dev/setup-CI-3.md"
+        "title": "setup CI",
+        "text": "steps/step5.md"
       },
       {
-        "title": "Operators setup CD",
-        "text": "steps/ops/setup-CD.md"
+        "title": "setup CD",
+        "text": "steps/step6.md"
       }
     ],
     "intro": {
