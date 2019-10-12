@@ -3,8 +3,8 @@
 `kubectl create namespace argocd
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml`{{execute}}
 
-`sudo curl -sSL -o /usr/local/bin/argo https://github.com/argoproj/argo-cd/releases/download/v1.2.3/argocd-linux-amd64
-sudo chmod +x /usr/local/bin/argo`{{execute}}
+`sudo curl -sSL -o /usr/local/bin/argocd https://github.com/argoproj/argo-cd/releases/download/v1.2.3/argocd-linux-amd64
+sudo chmod +x /usr/local/bin/argocd`{{execute}}
 
 ## kustomize
 

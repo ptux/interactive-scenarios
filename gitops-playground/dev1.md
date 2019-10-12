@@ -7,7 +7,7 @@
 hub fork`{{execute}}
 
 `GITHUB_USERNAME=ooocamel`{{execute}}
-cd ~/hello-gitops-app
+`cd ~/hello-gitops-app
 git remote set-url ooocamel https://github.com/$GITHUB_USERNAME/hello-gitops-app.git`{{execute}}
 
 

@@ -6,29 +6,46 @@
   "details": {
     "steps": [
       {
-        "title": "launch kube",
+        "title": "Operators launch k8s",
         "code": "foreground.sh",
-        "text": "step1.md"
+        "text": "ops1.md"
       },
       {
-        "title": "install gitpos tools",
-        "text": "step2.md"
+        "title": "Operators install tools",
+        "text": "ops2.md"
       },
       {
-        "title": "fetch repo",
-        "text": "step3.md"
+        "title": "Operators setup CI",
+        "text": "op3.md"
       },
       {
-        "title": "make changes",
-        "text": "step4.md"
+        "title": "Operators setup CD",
+        "text": "ops4.md"
+      },
+
+      {
+        "title": "Developers fetch repo",
+        "text": "dev1.md"
       },
       {
-        "title": "ci",
-        "text": "step5.md"
+        "title": "Developers update CI",
+        "text": "dev2.md"
       },
       {
-        "title": "merge PR",
-        "text": "step6.md"
+        "title": "Developers make PRs",
+        "text": "dev3.md"
+      },
+      {
+        "title": "PRs triger CI",
+        "text": "ci.md"
+      },
+      {
+        "title": "Developers merge PR",
+        "text": "dev4.md"
+      },
+      {
+        "title": "Merges triger CD",
+        "text": "cd.md"
       }
     ],
     "intro": {
