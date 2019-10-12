@@ -6,8 +6,9 @@
 `cd ~/hello-gitops-app
 hub fork`{{execute}}
 
-`cd ~/hello-gitops-app
-git remote set-url ooocamel https://github.com/ooocamel/hello-gitops-app.git`{{execute}}
+`GITHUB_USERNAME=ooocamel`{{execute}}
+cd ~/hello-gitops-app
+git remote set-url ooocamel https://github.com/$GITHUB_USERNAME/hello-gitops-app.git`{{execute}}
 
 
 1. Enable Circle CI building

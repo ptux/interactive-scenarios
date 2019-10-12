@@ -1,16 +1,17 @@
 ## ArgoCD
 
 `ns=dev
-github_username=ptux`{{execute}}
+GITHUB_USERNAME=ooocamel`{{execute}}
+
 
 `kubectl create namespace $ns`{{execute}}
 
-`argocd repo add https://github.com/$github_username/hello-gitops-env.git`{{execute}}
+`argocd repo add https://github.com/$GITHUB_USERNAME/hello-gitops-env.git`{{execute}}
 
-`argocd proj create $ns -d https://kubernetes.default.svc,$ns -s https://github.com/$github_username/hello-gitops-env.git`{{execute}}
+`argocd proj create $ns -d https://kubernetes.default.svc,$ns -s https://github.com/$GITHUB_USERNAME/hello-gitops-env.git`{{execute}}
 
 `argocd app create $ns-hello-gitops \
-  --repo https://github.com/$github_username/hello-gitops-env.git \
+  --repo https://github.com/$GITHUB_USERNAME/hello-gitops-env.git \
   --path overlays/$ns \
   --dest-server https://kubernetes.default.svc \
   --project $ns \
