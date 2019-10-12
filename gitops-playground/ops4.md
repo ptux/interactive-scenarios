@@ -4,15 +4,15 @@
 
 `kubectl get pods -n argocd -l app.kubernetes.io/name=argocd-server -o name | cut -d'/' -f 2`{{execute}}
 
-`argocd login localhost:8080`{execute}}
+`argocd login --insecure localhost:8080`{{execute}}
 
-WARNING: server certificate had error: x509: certificate signed by unknown authority.
-Proceed insecurely (y/n)? y
+```
 Username: admin
 Password: 
 
 'admin' logged in successfully
 Context 'localhost:8080' updated
+```
 
 `ns=dev
 GITHUB_USERNAME=ooocamel`{{execute}}
