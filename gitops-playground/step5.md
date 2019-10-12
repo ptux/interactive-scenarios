@@ -1,11 +1,6 @@
 ## Create PR
 
-`hub pull-request -F- <<<"THIS IS THE SUBJECT
-
-This is the body.
-This is the second line of body.
-
-This will all be body."`{{execute}}
+`echo -e "subject\n\nbody" | hub pull-request -F -`{{execute}}
 
 ## build image
 
