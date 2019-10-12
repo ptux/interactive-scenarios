@@ -8,44 +8,19 @@
       {
         "title": "Operators launch k8s",
         "code": "foreground.sh",
-        "text": "ops1.md"
+        "text": "steps/ops/launch-k8s.md"
       },
       {
         "title": "Operators install tools",
-        "text": "ops2.md"
+        "text": "steps/ops/install-tools.md"
       },
       {
         "title": "Operators setup CI",
-        "text": "ops3.md"
+        "text": "steps/ops/setup-CI.md"
       },
       {
         "title": "Operators setup CD",
-        "text": "ops4.md"
-      },
-
-      {
-        "title": "Developers change app",
-        "text": "dev1.md"
-      },
-      {
-        "title": "Developers change CI",
-        "text": "dev2.md"
-      },
-      {
-        "title": "Developers create PRs",
-        "text": "dev3.md"
-      },
-      {
-        "title": "PRs triger CI",
-        "text": "ci.md"
-      },
-      {
-        "title": "Developers merge PR",
-        "text": "dev4.md"
-      },
-      {
-        "title": "Merges triger CD",
-        "text": "cd.md"
+        "text": "steps/ops/setup-CD.md"
       }
     ],
     "intro": {
