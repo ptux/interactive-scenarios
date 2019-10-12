@@ -16,7 +16,7 @@
       },
       {
         "title": "Developers enable CI",
-        "text": "steps/ops/setup-CI-1.md"
+        "text": "steps/dev/setup-CI-1.md"
       },
       {
         "title": "Operators add key",
@@ -24,7 +24,7 @@
       },
       {
         "title": "Developers config CI",
-        "text": "steps/ops/setup-CI-3.md"
+        "text": "steps/dev/setup-CI-3.md"
       },
       {
         "title": "Operators setup CD",
