@@ -24,15 +24,15 @@
       },
 
       {
-        "title": "Developers fetch repo",
+        "title": "Developers change app",
         "text": "dev1.md"
       },
       {
-        "title": "Developers update CI",
+        "title": "Developers change CI",
         "text": "dev2.md"
       },
       {
-        "title": "Developers make PRs",
+        "title": "Developers create PRs",
         "text": "dev3.md"
       },
       {
