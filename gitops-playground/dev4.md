@@ -1,7 +1,3 @@
-## Create PR
+## merge PR
 
-`echo -e "subject\n\nbody" | hub pull-request -F -`{{execute}}
-
-## build image
-
-check circle ci
+`hub merge https://github.com/jingweno/gh/pull/73`{{execute}}
