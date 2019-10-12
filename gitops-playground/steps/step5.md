@@ -4,8 +4,8 @@
 
 ## add deploy key(private)
 
-```
 https://circleci.com
+```
 PERMISSIONS -> SSH Permissions -> Add SSH Key
 ```
 
@@ -13,8 +13,8 @@ PERMISSIONS -> SSH Permissions -> Add SSH Key
 
 ## add deploy key(public)
 
-```
 https://github.com
+```
 hello-gitops-env -> settings -> keys
 ```
 
@@ -34,11 +34,13 @@ hello-gitops-env -> settings -> keys
 
 ## commit in app repo
 
+```
 cd ~/hello-gitops-app
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 git commit . -m "hello gitops"
 git push ooocamel feature
+```
 
 ## Create PR
 
