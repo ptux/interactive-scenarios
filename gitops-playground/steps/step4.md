@@ -11,10 +11,10 @@
 
 ## commit in app repo
 
-```
-cd ~/hello-gitops-app
+`cd ~/hello-gitops-app
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+git config --global push.default simple
 git commit . -m "add key fingerprint of env repo"
-git push ooocamel feature
-```
+git push ooocamel feature`{{execute}}
+
