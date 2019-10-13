@@ -1,11 +1,20 @@
-## Circle CI Settings
+## create ssh key pair
 
-https://circleci.com
+`cd && ssh-keygen -t rsa -m pem -f hello-gitops -N ""`{{execute}}
 
-BUILD SETTINGS -> Environment Variables -> Add Variable
+## .circleci/config.yml
 
-- DOCKER_LOGIN
-- DOCKER_PASSWORD
-- GITHUB_USERNAME
+`FP=$(cd && ssh-keygen -E md5 -l -f hello-gitops.pub | cut -d" " -f2 | cut -d":" -f2-)`{{execute}}
 
-BUILD SETTINGS -> Advanced Settings -> Only build pull requests[on]
+`cd ~/hello-gitops-app && git checkout -b feature`{{execute}}
+`sed -i -e "s/_FINGERPRINTS_/$FP/g" ~/hello-gitops-app/.circleci/config.yml`{{execute}}
+
+## commit in app repo
+
+```
+cd ~/hello-gitops-app
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git commit . -m "add key fingerprint of env repo"
+git push ooocamel
+```
