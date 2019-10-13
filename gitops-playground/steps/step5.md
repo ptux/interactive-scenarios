@@ -43,6 +43,6 @@ Key:
 
 ## Create PR
 
-`echo -e "subject\n\nbody" | hub pull-request -F -`{{execute}}
+`echo -e "subject\n\nbody" | hub pull-request -b ooocamel:master -F -`{{execute}}
 
 ## check CI
