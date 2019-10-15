@@ -7,7 +7,7 @@
     "steps": [
       {
         "title": "install hub cli",
-        "text": "steps/install-hub-cli.md.md"
+        "text": "steps/install-hub-cli.md"
       },
       {
         "title": "fork app repo",
