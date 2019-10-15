@@ -6,29 +6,64 @@
   "details": {
     "steps": [
       {
+        "title": "install hub cli",
+        "text": "steps/install-hub-cli.md.md"
+      },
+      {
+        "title": "fork app repo",
+        "text": "steps/fork-app-repo.md"
+      },
+      {
+        "title": "fork env repo",
+        "text": "steps/fork-env-repo.md"
+      },
+      {
+        "title": "create deploy key",
+        "text": "steps/create-deploy-key.md"
+      },
+      {
+        "title": "start building",
+        "text": "steps/start-building.md"
+      },
+      {
+        "title": "build settings",
+        "text": "steps/build-settings.md"
+      },
+
+      {
+        "title": "add public key",
+        "text": "steps/add-public-key.md"
+      },
+
+      {
+        "title": "add private key",
+        "text": "steps/add-private-key.md"
+      },
+      {
+        "title": "PR trigers ci",
+        "text": "steps/pr-trigers-ci.md"
+      },
+      {
         "title": "launch k8s",
         "code": "foreground.sh",
-        "text": "steps/step1.md"
+        "text": "steps/launch-k8s.md"
       },
       {
-        "title": "install tools",
-        "text": "steps/step2.md"
+        "title": "setup argocd",
+        "text": "steps/setup-argocd.md"
+      },
+
+      {
+        "title": "add argocd app",
+        "text": "steps/add-argocd-app.md"
       },
       {
-        "title": "setup CI",
-        "text": "steps/step3.md"
+        "title": "access argocd gui",
+        "text": "steps/access-argocd-gui.md"
       },
       {
-        "title": "setup CI",
-        "text": "steps/step4.md"
-      },
-      {
-        "title": "setup CI",
-        "text": "steps/step5.md"
-      },
-      {
-        "title": "setup CD",
-        "text": "steps/step6.md"
+        "title": "merge trigers cd",
+        "text": "steps/merge-trigers-cd.md"
       }
     ],
     "intro": {

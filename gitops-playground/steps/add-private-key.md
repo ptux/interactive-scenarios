@@ -1,6 +1,12 @@
-## create ssh key pair
+## add deploy key(private)
+```
+PERMISSIONS -> SSH Permissions -> Add SSH Key
+```
+Hostname: github.com
 
-`cd && ssh-keygen -t rsa -m pem -f hello-gitops -N ""`{{execute}}
+Private Key:
+`cat ~/hello-gitops`{{execute}}
+
 
 ## .circleci/config.yml
 
@@ -17,4 +23,3 @@ git config --global user.name "Your Name"
 git config --global push.default simple
 git commit . -m "add key fingerprint of env repo"
 git push ooocamel feature`{{execute}}
-

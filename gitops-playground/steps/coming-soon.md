@@ -35,3 +35,8 @@ sudo install -m 755 kubeseal /usr/local/bin/kubeseal`{{execute}}
         "title": "Merges triger CD",
         "text": "cd.md"
       }
+
+`cd ~/hello-gitops-app && echo -e "subject\n\nbody" | hub pull-request -b ooocamel:master -F -`{{execute}}
+
+`hub merge https://github.com/ooocamel/hello-gitops-app/pull/1`{{execute}}
+`git push`
