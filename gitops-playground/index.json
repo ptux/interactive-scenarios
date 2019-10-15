@@ -1,6 +1,6 @@
 {
   "title": "gitops-playground",
-  "description": "gitops-playground",
+  "description": "GitOps,Circle CI,Argocd,Docker,k8s,kustomize,sealed-screte",
   "difficulty": "Intermediate",
   "time": "30mins",
   "details": {

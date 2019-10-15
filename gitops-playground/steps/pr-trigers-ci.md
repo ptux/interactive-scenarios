@@ -1,4 +1,7 @@
-- Create PR
+- Create PR on app repo
+
 https://github.com
 
-- check CI
+- Check CI
+
+Only build image for PR.
