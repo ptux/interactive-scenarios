@@ -13,4 +13,4 @@ A key point of GitOps is the idea of "environments-as-code".
 
 This tutorial could be done in free tier of each service.
 
-![gitops-overview](../gitops-overview.png)
+![gitops-overview](https://github.com/ptux/katacoda-scenarios/blob/master/gitops-overview.png)
