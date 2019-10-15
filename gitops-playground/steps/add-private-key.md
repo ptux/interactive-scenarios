@@ -6,10 +6,11 @@ PERMISSIONS
 -> SSH Permissions
 -> Add SSH Key
 ```
+
 > Hostname: github.com
 >Private Key:
 
-`cat ~/hello-gitops`{{execute}}
+Fill `Private Key` with contents of `cat ~/hello-gitops`{{execute}}
 
 ## .circleci/config.yml
 
