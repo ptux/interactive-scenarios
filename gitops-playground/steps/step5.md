@@ -2,7 +2,9 @@
 
 https://circleci.com
 
-1. Login with Github -> ADD PROJECTS -> Set Up Project
+1. Login with Github -> ADD PROJECTS -> Set Up Project -> Start building
+
+failed due to lack of env
 
 2. BUILD SETTINGS -> Environment Variables -> Add Variable
 
@@ -43,6 +45,6 @@ Key:
 
 ## Create PR
 
-`echo -e "subject\n\nbody" | hub pull-request -b ooocamel:master -F -`{{execute}}
+`cd ~/hello-gitops-app && echo -e "subject\n\nbody" | hub pull-request -b ooocamel:master -F -`{{execute}}
 
 ## check CI
