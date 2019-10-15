@@ -48,3 +48,9 @@ Key:
 `cd ~/hello-gitops-app && echo -e "subject\n\nbody" | hub pull-request -b ooocamel:master -F -`{{execute}}
 
 ## check CI
+
+## merge PR
+
+`hub merge https://github.com/ooocamel/hello-gitops-app/pull/1`{{execute}}
+
+## check CD

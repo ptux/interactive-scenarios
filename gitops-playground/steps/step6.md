@@ -14,10 +14,10 @@ Password:
 Context 'localhost:8080' updated
 ```
 
-`ns=dev
-GITHUB_USERNAME=ooocamel`{{execute}}
+replace GITHUB_USERNAME
+`GITHUB_USERNAME=ooocamel`{{execute}}
 
-`kubectl create namespace $ns`{{execute}}
+`ns=dev && kubectl create namespace $ns`{{execute}}
 
 `argocd repo add https://github.com/$GITHUB_USERNAME/hello-gitops-env.git`{{execute}}
 
@@ -33,3 +33,4 @@ GITHUB_USERNAME=ooocamel`{{execute}}
   --sync-policy automated`{{execute}}
 
 `kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "NodePort"}}'`{{execute}}
+`kubectl get svc argocd-server -n argocd`{{execute}}
