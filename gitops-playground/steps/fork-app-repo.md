@@ -1,5 +1,3 @@
-## fork app repo
-
 `hub clone https://github.com/ptux/hello-gitops-app.git ~/hello-gitops-app`{{execute}}
 
 `cd ~/hello-gitops-app && hub fork`{{execute}}

@@ -1,4 +1,3 @@
-## add deploy key(private)
 ```
 PERMISSIONS -> SSH Permissions -> Add SSH Key
 ```
@@ -6,7 +5,6 @@ Hostname: github.com
 
 Private Key:
 `cat ~/hello-gitops`{{execute}}
-
 
 ## .circleci/config.yml
 

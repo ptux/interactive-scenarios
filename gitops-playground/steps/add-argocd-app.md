@@ -1,5 +1,3 @@
-## add argocd app
-
 replace GITHUB_USERNAME
 `GITHUB_USERNAME=ooocamel`{{execute}}
 
