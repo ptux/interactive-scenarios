@@ -9,6 +9,7 @@ A key point of GitOps is the idea of "environments-as-code".
 `GitHub` for hosting 2 public repo
 `Circle CI` for building and pushing docker image
 `Docker Hub` for hosting 1 public image repo
+`Katacoda` for using configured k8s
 
 This tutorial could be done in free tier of each service.
 

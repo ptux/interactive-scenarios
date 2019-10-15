@@ -2,7 +2,8 @@
 
 `cd ~/hello-gitops-app && hub fork`{{execute}}
 
-replace username
-`GITHUB_USERNAME=ooocamel`{{execute}}
+Replace with your GITHUB_USERNAME and then execute.
 
-`cd ~/hello-gitops-app && git remote set-url ooocamel https://github.com/$GITHUB_USERNAME/hello-gitops-app.git`{{execute}}
+`GITHUB_USERNAME=ooocamel`
+
+`cd ~/hello-gitops-app && git remote set-url $GITHUB_USERNAME https://github.com/$GITHUB_USERNAME/hello-gitops-app.git`{{execute}}

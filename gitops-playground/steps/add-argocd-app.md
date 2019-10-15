@@ -1,5 +1,6 @@
-replace GITHUB_USERNAME
-`GITHUB_USERNAME=ooocamel`{{execute}}
+Replace with your GITHUB_USERNAME and then execute
+
+`GITHUB_USERNAME=GITHUB_USERNAME`
 
 `ns=dev && kubectl create namespace $ns`{{execute}}
 
