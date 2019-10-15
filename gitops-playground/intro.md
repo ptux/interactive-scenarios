@@ -1,11 +1,15 @@
-# GitOps
+# gitops playground
 
-The term "GitOps" itself was coined by [Weaveworks](https://www.weave.works/blog/gitops-operations-by-pull-request). 
+This tutorial shows how to create a CI/CD pipeline using the GitOps methodology.
 
-A key part of GitOps is the idea of "environments-as-code":
-describing your deployments declaratively using files (for example, Kubernetes manifests) stored in a Git repository.
+A key point of GitOps is the idea of "environments-as-code".
 
-![pipeline](https://cloud.google.com/kubernetes-engine/images/gitops-tutorial-pipeline-flow.svg)
+## Prerequisites
 
-Reference:
-[GitOps-style continuous delivery with Cloud Build](https://cloud.google.com/kubernetes-engine/docs/tutorials/gitops-cloud-build)
+`GitHub` for hosting 2 public repo
+`Circle CI` for building and pushing docker image
+`Docker Hub` for hosting 1 public image repo
+
+This tutorial could be done in free tier of each service.
+
+![gitops-overview](../gitops-overview.png)
