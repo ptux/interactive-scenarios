@@ -1,9 +1,14 @@
-```
-PERMISSIONS -> SSH Permissions -> Add SSH Key
-```
-Hostname: github.com
 
-Private Key:
+https://circleci.com
+
+```
+PERMISSIONS
+-> SSH Permissions
+-> Add SSH Key
+```
+> Hostname: github.com
+>Private Key:
+
 `cat ~/hello-gitops`{{execute}}
 
 ## .circleci/config.yml
