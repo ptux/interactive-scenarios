@@ -1,6 +1,6 @@
 Replace `ptux` with your GITHUB_USERNAME and then execute.
 
-`GITHUB_USERNAME=ptux`
+`GITHUB_USERNAME=ptux`{{copy}}
 
 `ns=dev && kubectl create namespace $ns`{{execute}}
 

@@ -4,6 +4,6 @@
 
 Replace `ptux` with your GITHUB_USERNAME and then execute.
 
-`GITHUB_USERNAME=ptux`
+`GITHUB_USERNAME=ptux`{{copy}}
 
 `cd ~/hello-gitops-app && git remote set-url $GITHUB_USERNAME https://github.com/$GITHUB_USERNAME/hello-gitops-app.git`{{execute}}

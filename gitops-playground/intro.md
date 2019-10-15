@@ -13,4 +13,4 @@ This tutorial could be done in free tier of each service.
 - `Docker Hub` for hosting 1 public image repo
 - `Katacoda` for using configured k8s
 
-![gitops-overview](https://github.com/ptux/katacoda-scenarios/blob/master/gitops-overview.png)
+![gitops-overview](https://drive.google.com/file/d/1RuuommCMN6Y7bFGVlG882BkUHy75xM_Q/view?usp=sharing)
