@@ -5,6 +5,9 @@
 `argocd login --insecure localhost:8080`{{execute}}
 
 > Username: admin
-> Password: 
+
+> Password:
+
 > 'admin' logged in successfully
+
 > Context 'localhost:8080' updated
