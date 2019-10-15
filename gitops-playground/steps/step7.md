@@ -1,5 +1,7 @@
-## merge PR
+## make changes
 
-`hub merge https://github.com/jingweno/gh/pull/73`{{execute}}
+## create PR
+
+## merge PR
 
 ## check CD

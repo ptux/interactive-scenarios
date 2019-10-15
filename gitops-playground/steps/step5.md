@@ -52,5 +52,4 @@ Key:
 ## merge PR
 
 `hub merge https://github.com/ooocamel/hello-gitops-app/pull/1`{{execute}}
-
-## check CD
+`git push`
