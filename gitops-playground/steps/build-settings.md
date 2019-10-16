@@ -2,7 +2,9 @@
 https://circleci.com
 
 ```
-BUILD SETTINGS -> Environment Variables -> Add Variable
+BUILD SETTINGS
+-> Environment Variables
+-> Add Variable
 ```
 
 - DOCKER_LOGIN
@@ -10,5 +12,7 @@ BUILD SETTINGS -> Environment Variables -> Add Variable
 - GITHUB_USERNAME
 
 ```
-BUILD SETTINGS -> Advanced Settings -> Only build pull requests[on]
+BUILD SETTINGS
+-> Advanced Settings
+-> Only build pull requests   [on]
 ```

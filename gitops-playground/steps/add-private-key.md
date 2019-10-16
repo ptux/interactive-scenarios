@@ -28,4 +28,5 @@ git config --global push.default simple
 git commit . -m "add key fingerprint of env repo"`{{execute}}
 
 Replace `ptux` with your GITHUB_USERNAME and then execute.
+
 `git push ptux feature`
