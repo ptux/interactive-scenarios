@@ -17,6 +17,7 @@ Fill `Private Key` with contents of `cat ~/hello-gitops`{{execute}}
 `FP=$(cd && ssh-keygen -E md5 -l -f hello-gitops.pub | cut -d" " -f2 | cut -d":" -f2-)`{{execute}}
 
 `cd ~/hello-gitops-app && git checkout -b feature`{{execute}}
+
 `sed -i -e "s/_FINGERPRINTS_/$FP/g" ~/hello-gitops-app/.circleci/config.yml`{{execute}}
 
 ## commit in app repo
@@ -29,4 +30,4 @@ git commit . -m "add key fingerprint of env repo"`{{execute}}
 
 Replace `ptux` with your GITHUB_USERNAME and then execute.
 
-`git push ptux`{{copy}}
+`git push ptux feature`{{copy}}
