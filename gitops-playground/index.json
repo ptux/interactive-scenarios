@@ -49,6 +49,10 @@
         "text": "steps/launch-k8s.md"
       },
       {
+        "title": "install argocd",
+        "text": "steps/install-argocd.md"
+      },
+      {
         "title": "setup argocd",
         "text": "steps/setup-argocd.md"
       },
