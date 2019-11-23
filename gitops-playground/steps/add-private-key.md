@@ -1,3 +1,4 @@
+add private key to `hello-gitops-app` on circleci
 
 https://circleci.com
 
@@ -8,7 +9,8 @@ PERMISSIONS
 ```
 
 > Hostname: github.com
->Private Key:
+
+> Private Key:
 
 Fill `Private Key` with contents of `cat ~/hello-gitops`{{execute}}
 
