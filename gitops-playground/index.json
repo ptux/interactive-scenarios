@@ -1,6 +1,6 @@
 {
   "title": "gitops-playground",
-  "description": "playground with Circle CI,Argocd,Docker,k8s,kustomize,sealed-secrets",
+  "description": "Playground with CircleCI, Argocd, Docker, k8s, kustomize, sealed-secrets",
   "difficulty": "Intermediate",
   "time": "30mins",
   "details": {
