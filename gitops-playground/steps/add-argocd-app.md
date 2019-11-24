@@ -1,7 +1,3 @@
-Replace `ptux` with your GITHUB_USERNAME and then execute.
-
-`GITHUB_USERNAME=ptux`{{copy}}
-
 `ns=dev && kubectl create namespace $ns`{{execute}}
 
 `argocd repo add https://github.com/$GITHUB_USERNAME/hello-gitops-env.git`{{execute}}

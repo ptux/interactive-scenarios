@@ -2,3 +2,7 @@
 sudo ./hub-linux-amd64-2.12.8/install`{{execute}}
 
 `hub version`{{execute}}
+
+Replace `ptux` with your GITHUB_USERNAME and then execute.
+
+`GITHUB_USERNAME=ptux`{{copy}}

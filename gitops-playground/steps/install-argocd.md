@@ -1,6 +1,6 @@
 Download install yaml for ArgoCD
 
-`curl -L https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml > ~/argocd-install.yaml`
+`curl -L https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml > ~/argocd-install.yaml`{{execute}}
 
 Install ArgoCD in k8s
 
