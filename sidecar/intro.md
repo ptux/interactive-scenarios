@@ -1,5 +1,3 @@
 # sidecar
 
-pro and cons of sidecar patten
-
-overview
+Don't use sidecar if you don't have to.

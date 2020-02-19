@@ -1,4 +1,4 @@
-## create a sidecar
+## create a motor with sidecar
 
 `kubectl apply -f https://github.com/ptux/katacoda-scenarios/tree/master/sidecar/manifests/sidecar.yml
 kubectl get pods`{{execute}}

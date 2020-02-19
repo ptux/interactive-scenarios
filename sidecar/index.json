@@ -7,11 +7,11 @@
     "steps": [
       {
         "title": "create a sidecar pattern pod",
-        "text": "steps/sidecar.md"
+        "text": "steps/create-sidecar.md"
       },
       {
-        "title": "fork app repo",
-        "text": "steps/fork-app-repo.md"
+        "title": "if sidecar broken",
+        "text": "steps/broke-sidecar.md"
       }
     ],
     "intro": {
