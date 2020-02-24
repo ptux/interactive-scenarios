@@ -1,17 +1,13 @@
 {
-  "title": "sidecar",
-  "description": "introduce sidecar pattern",
+  "title": "pod lifecycle",
+  "description": "This scenario describes the lifecycle of a Pod",
   "difficulty": "Intermediate",
   "time": "15mins",
   "details": {
     "steps": [
       {
-        "title": "create a sidecar pattern pod",
-        "text": "steps/create-sidecar.md"
-      },
-      {
-        "title": "if sidecar broken",
-        "text": "steps/broke-sidecar.md"
+        "title": "Pending and Running phase",
+        "text": "steps/pending-running.md"
       }
     ],
     "intro": {
