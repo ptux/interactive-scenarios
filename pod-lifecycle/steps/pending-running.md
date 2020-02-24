@@ -3,20 +3,20 @@ Pending phase includes time for:
 - pulling image
 - processing initContainers
 
-`
-kubectl apply -f https://raw.githubusercontent.com/ptux/katacoda-scenarios/master/pod-lifecycle/manifests/pending-running.yaml
-echo "container status:"
-kubectl describe pod pending-running-pod | grep -A1 Stat
-kubectl get pod
-echo "pod status:"
-kubectl describe pod pending-running-pod | grep Status`{{execute}}
+`kubectl apply -f https://raw.githubusercontent.com/ptux/katacoda-scenarios/master/pod-lifecycle/manifests/pending-running.yaml`{{execute}}
 
-Wait 30 secconds and execute following command.
-Pod will enter running phase.
+## Within 30 secconds
 
-container status:
-`kubectl describe pod pending-running-pod | grep -A1 State
-kubectl get pod`{{execute}}
+container stays in running status within 30 secconds
+pod stays in Pending phase within 30 secconds
 
-pod status:
-`kubectl describe pod pending-running-pod| grep Status`{{execute}}
+`kubectl get pod pending-running-pod -o json | jq '.status.phase'
+kubectl get pod pending-running-pod -o json | jq '.status.containerStatuses[].state'`{{execute}}
+
+## After 30 secconds
+
+container enters waiting status after 30 secconds
+pod enters Running phase after 30 secconds
+
+`kubectl get pod pending-running-pod -o json | jq '.status.phase'
+kubectl get pod pending-running-pod -o json | jq '.status.containerStatuses[].state'`{{execute}}

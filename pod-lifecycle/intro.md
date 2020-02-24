@@ -3,10 +3,10 @@
 This scenarios aim for getting a better understanding of:
 
 - pod lifecycle
-- pod and containers status
+- container status
+- sidecar pattern
 
 ## overview
-
 
 ## what I learned
 
