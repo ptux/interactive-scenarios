@@ -9,4 +9,6 @@ Pending phase includes time for:
 
 ## from Pending to Running phase
 
-`kubectl get pod pending-running-pod -o json | jq '.status.phase'`{{execute}}
+`kubectl get pod pending-running-pod -o json | jq '.status.phase'
+sleep 30
+kubectl get pod pending-running-pod -o json | jq '.status.phase'`{{execute}}
