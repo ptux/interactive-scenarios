@@ -1,0 +1,3 @@
+tbd...
+
+A Pod has a PodStatus, which has an array of PodConditions through which the Pod has or has not passed.

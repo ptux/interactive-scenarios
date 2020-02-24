@@ -12,6 +12,22 @@
       {
         "title": "Succeeded phase",
         "text": "steps/succeeded.md"
+      },
+      {
+        "title": "Failed phase",
+        "text": "steps/failed.md"
+      },
+      {
+        "title": "Unknown phase",
+        "text": "steps/unknown.md"
+      },
+      {
+        "title": "Pod conditions",
+        "text": "steps/pod-conditions.md"
+      },
+      {
+        "title": "Container probes",
+        "text": "steps/container-probes.md"
       }
     ],
 
