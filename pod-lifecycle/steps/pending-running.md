@@ -5,11 +5,18 @@ Pending phase includes time for:
 
 `
 kubectl apply -f https://raw.githubusercontent.com/ptux/katacoda-scenarios/master/pod-lifecycle/manifests/pending-running.yaml
+echo "container status:"
+kubectl describe pod pending-running-pod | grep -A1 Stat
 kubectl get pod
-kubectl describe pod pending-running-pod| grep Status`{{execute}}
+echo "pod status:"
+kubectl describe pod pending-running-pod | grep Status`{{execute}}
 
 Wait 30 secconds and execute following command.
 Pod will enter running phase.
 
-`kubectl get pod
-kubectl describe pod pending-running-pod| grep Status`{{execute}}
+container status:
+`kubectl describe pod pending-running-pod | grep -A1 State
+kubectl get pod`{{execute}}
+
+pod status:
+`kubectl describe pod pending-running-pod| grep Status`{{execute}}

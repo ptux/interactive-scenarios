@@ -1,6 +1,9 @@
-# pod lifecycle
+# k8s pod lifecycle
 
-This scenarios aim for getting a better understanding of k8s pod lifecycle.
+This scenarios aim for getting a better understanding of:
+
+- pod lifecycle
+- pod and containers status
 
 ## overview
 

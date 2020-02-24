@@ -3,7 +3,6 @@ kind: Pod
 metadata:
   name: pending-running-pod
 spec:
-  restartPolicy: Never
   initContainers:
   - name: init
     image: busybox
