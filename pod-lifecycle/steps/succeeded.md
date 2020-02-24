@@ -8,4 +8,4 @@ All Containers in the Pod have terminated in success, and will not be restarted.
 
 ## Succeeded phase
 
-`kubectl get pod pending-running-pod -o json | jq '.status.phase'`{{execute}}
+`kubectl get pod succeeded-pod -o json | jq '.status.phase'`{{execute}}
