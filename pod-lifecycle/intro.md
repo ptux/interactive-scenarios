@@ -2,9 +2,9 @@
 
 This scenarios aim for getting a better understanding of:
 
-- pod lifecycle
-- container status
-- sidecar pattern
+- pod lifecycle [WIP]
+- container status [tbd]
+- sidecar pattern [tbd]
 
 ## overview
 
