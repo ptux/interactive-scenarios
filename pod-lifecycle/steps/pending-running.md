@@ -3,10 +3,13 @@ Pending phase includes time for:
 - pulling image
 - processing initContainers
 
-`kubectl apply -f https://raw.githubusercontent.com/ptux/katacoda-scenarios/master/sidecar/manifests/pending-running.yml
+`
+kubectl apply -f https://raw.githubusercontent.com/ptux/katacoda-scenarios/master/pod-lifecycle/manifests/pending-running.yaml
+kubectl get pod
+kubectl describe pod pending-running-pod| grep Status`{{execute}}
 
-kubectl get pods
+Wait 30 secconds and execute following command.
+Pod will enter running phase.
 
-sleep 31
-
-kubectl get pods`{{execute}}
+`kubectl get pod
+kubectl describe pod pending-running-pod| grep Status`{{execute}}

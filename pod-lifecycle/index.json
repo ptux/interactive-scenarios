@@ -8,8 +8,13 @@
       {
         "title": "Pending and Running phase",
         "text": "steps/pending-running.md"
+      },
+      {
+        "title": "Succeeded phase",
+        "text": "succeeded.md"
       }
     ],
+
     "intro": {
       "text": "intro.md",
       "code": "foreground.sh"
