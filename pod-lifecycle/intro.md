@@ -1,6 +1,6 @@
 # k8s pod lifecycle
 
-This scenarios aim for getting a better understanding of:
+This scenario aims for getting a better understanding of:
 
 - pod lifecycle [WIP]
 - container status [tbd]
