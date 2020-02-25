@@ -6,6 +6,8 @@ This scenario aims for getting a better understanding of:
 - container status [tbd]
 - sidecar pattern [tbd]
 
+And telling you how to verify k8s document.
+
 ## overview
 
 tbd..

@@ -1,4 +1,8 @@
-# Reference
+# What's next
+
+How restartPolicy affect pod phase?
+
+## Reference
 
 https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/
 
