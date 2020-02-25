@@ -26,6 +26,10 @@
         "text": "steps/pod-conditions.md"
       },
       {
+        "title": "sidecar",
+        "text": "steps/sidecar.md"
+      },
+      {
         "title": "Container probes",
         "text": "steps/container-probes.md"
       }
