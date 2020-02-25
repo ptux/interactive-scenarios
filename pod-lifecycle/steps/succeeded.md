@@ -9,3 +9,6 @@ All Containers in the Pod have terminated in success, and will not be restarted.
 ## Succeeded phase
 
 `kubectl get pod succeeded-pod -o json | jq '.status.phase'`{{execute}}
+
+
+https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-phase

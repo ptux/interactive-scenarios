@@ -12,3 +12,6 @@ Pending phase includes time for:
 `kubectl get pod pending-running-pod -o json | jq '.status.phase'
 sleep 30
 kubectl get pod pending-running-pod -o json | jq '.status.phase'`{{execute}}
+
+
+https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-phase
