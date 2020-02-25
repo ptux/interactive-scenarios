@@ -11,10 +11,15 @@ sidecar is a kind of multi-container pod.
 `kubectl expose pod sidecar-pod --port=80 --target-port=8000`{{execute}}
 
 `kubectl get svc sidecar-pod`{{execute}}
+
 `kubectl get endpoints sidecar-pod`{{execute}}
 
+## pod will be removed from endpoints when unready
+
 `kubectl exec -it sidecar-pod -c sidecar -- rm /tmp/healthy`{{execute}}
+
 `kubectl get endpoints sidecar-pod`{{execute}}
 
 `kubectl exec -it sidecar-pod -c sidecar -- touch /tmp/healthy`{{execute}}
+
 `kubectl get endpoints sidecar-pod`{{execute}}
