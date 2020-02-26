@@ -5,7 +5,9 @@ That is, the Container either exited with non-zero status or was terminated by t
 
 ## create a pod with exit status 1
 
-`kubectl apply -f https://raw.githubusercontent.com/ptux/katacoda-scenarios/master/pod-lifecycle/manifests/failed.yaml`{{execute}}
+`kubectl apply -f https://raw.githubusercontent.com/ptux/katacoda-scenarios/master/pod-lifecycle/manifests/failed.yaml
+kubectl get pods failed-pod --watch --request-timeout=30`{{execute}}
+
 
 ## Failed phase
 
