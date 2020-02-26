@@ -14,4 +14,5 @@ tbd..
 
 ## what I learned
 
-- Don't use sidecar if you don't have to.
+- Don't use sidecar if you don't have to
+- phase, status, conditions are different things
