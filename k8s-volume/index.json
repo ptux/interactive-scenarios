@@ -1,0 +1,28 @@
+{
+  "title": "volume",
+  "description": "This scenario describes volume in k8s",
+  "difficulty": "Intermediate",
+  "time": "15mins",
+  "details": {
+    "steps": [
+      {
+        "title": "share data with hostpath",
+        "text": "steps/hostpath.md"
+      }
+    ],
+
+    "intro": {
+      "text": "intro.md",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes"
+  }
+}
