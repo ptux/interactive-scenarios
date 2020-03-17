@@ -1,8 +1,8 @@
 {
-  "title": "volume",
+  "title": "k8s volume",
   "description": "This scenario describes volume in k8s",
-  "difficulty": "Intermediate",
-  "time": "15mins",
+  "difficulty": "Begin",
+  "time": "5mins",
   "details": {
     "steps": [
       {
