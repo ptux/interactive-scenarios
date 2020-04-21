@@ -1,0 +1,18 @@
+{
+    "title": "Kubernetes",
+    "description": "Kubernetes",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "course_id": "gitops",
+        "title": "gitops",
+        "description": "gitops desc"
+      },
+      {
+      "course_id": "pod-lifecycle",
+      "title": "pod-lifecycle",
+      "description": "pod-lifecycle desc"
+     }
+    ]
+  }
+  
