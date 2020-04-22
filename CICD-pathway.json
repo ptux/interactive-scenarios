@@ -1,0 +1,13 @@
+{
+    "title": "CICD",
+    "description": "CICD",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "course_id": "gitops",
+        "title": "gitops",
+        "description": "gitops desc"
+      }
+    ]
+  }
+  
