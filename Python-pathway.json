@@ -1,0 +1,13 @@
+{
+    "title": "Python",
+    "description": "Python",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "course_id": "basic",
+        "title": "basic",
+        "description": "basic"
+      }
+    ]
+  }
+  
