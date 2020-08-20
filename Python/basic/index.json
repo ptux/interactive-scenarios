@@ -1,0 +1,28 @@
+{
+  "title": "basic",
+  "description": "basic",
+  "difficulty": "beginner",
+  "time": "15mins",
+  "details": {
+    "steps": [
+      {
+        "title": "first step",
+        "text": "steps/first-step.md"
+      }
+    ],
+
+    "intro": {
+      "text": "intro.md",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "python:3.6"
+  }
+}
