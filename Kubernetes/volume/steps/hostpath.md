@@ -1,7 +1,7 @@
 
 ## create two pods in the same node
 
-`kubectl apply -f https://raw.githubusercontent.com/ptux/katacoda-scenarios/master/k8s-volume/manifests/hostpath.yaml`{{execute}}
+`kubectl apply -f https://raw.githubusercontent.com/ptux/katacoda-scenarios/master/Kubernetes/volume/manifests/hostpath.yaml`{{execute}}
 
 ## create a file from test-pd
 
