@@ -10,7 +10,6 @@
         "text": "steps/hostpath.md"
       }
     ],
-
     "intro": {
       "text": "intro.md",
       "code": "foreground.sh"
@@ -23,6 +22,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "kubernetes"
+    "imageid": "kubernetes-cluster-running:1.18"
   }
 }
