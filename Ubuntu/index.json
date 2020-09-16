@@ -12,8 +12,11 @@
             "text": "finish.md"
         }
     },
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh"
+    },
     "environment": {
-        "hideintro": true,
         "uilayout": "terminal"
     },
     "backend": {
