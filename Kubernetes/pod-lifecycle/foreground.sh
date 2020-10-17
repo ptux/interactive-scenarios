@@ -1,2 +1,2 @@
 launch.sh
-kubectl wait --for=condition=Ready node/controlplane --timeout=600s
+kubectl wait --for=condition=Ready node/master --timeout=600s
