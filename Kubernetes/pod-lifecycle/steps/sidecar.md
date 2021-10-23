@@ -2,7 +2,7 @@ sidecar is a kind of multi-container pod.
 
 ## create a sidecar pod
 
-`kubectl apply -f https://raw.githubusercontent.com/ptux/katacoda-scenarios/master/pod-lifecycle/manifests/sidecar.yaml`{{execute}}
+`kubectl apply -f https://raw.githubusercontent.com/ptux/katacoda-scenarios/master/Kubernetes/pod-lifecycle/manifests/sidecar.yaml`{{execute}}
 
 `kubectl wait --for=condition=Ready pod/sidecar-pod`{{execute}}
 

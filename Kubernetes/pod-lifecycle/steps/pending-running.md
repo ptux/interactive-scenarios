@@ -5,7 +5,7 @@ Pending phase includes time for:
 
 ## pod status
 
-`kubectl apply -f https://raw.githubusercontent.com/ptux/katacoda-scenarios/master/pod-lifecycle/manifests/pending-running.yaml
+`kubectl apply -f https://raw.githubusercontent.com/ptux/katacoda-scenarios/master/Kubernetes/pod-lifecycle/manifests/pending-running.yaml
 kubectl get pods pending-running-pod --watch --request-timeout=60`{{execute}}
 
 ## pod phase - Running
